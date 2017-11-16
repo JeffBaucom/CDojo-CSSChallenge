@@ -3,6 +3,10 @@
 	margin: 0px;
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	max-width: 1000px;
 	margin: 0px auto;
@@ -17,6 +21,12 @@ body {
 	justify-content: space-between;
 	border-bottom: 1px solid lightgray;
 	padding: 5px;
+}
+
+.button-left:hover {
+	background-color: lightgray;
+	border: 1px solid gray;
+	padding: 6px;
 }
 
 .top-button {
